@@ -384,6 +384,29 @@ section + section {
   line-height: 1.5;
 }
 
+.project__link {
+  margin: 0.65rem 0 0;
+  font-size: 0.9rem;
+  color: var(--ink-muted);
+}
+
+.project__link-label {
+  font-weight: 700;
+  color: var(--ink);
+  margin-right: 0.45rem;
+}
+
+.project__link a {
+  font-weight: 700;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.project__link a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .tech-tags {
   display: flex;
   flex-wrap: wrap;
