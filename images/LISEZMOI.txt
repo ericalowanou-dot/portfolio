@@ -1,0 +1,22 @@
+Photo de profil
+---------------
+
+1. Enregistre ta photo dans CE dossier (images/), sous le nom :
+
+   profil.jpg
+
+   Formats acceptés par le navigateur : JPG, PNG, WEBP.
+   Tu peux aussi utiliser un autre nom (ex. profil.webp) : dans ce cas,
+   adapte le nom de fichier dans l’attribut src du <img> dans index.html.
+
+2. Ouvre index.html à la racine du site, repère le bloc « Photo de profil »
+   dans la colonne de gauche.
+
+3. Supprime la ligne qui commence par <div class="avatar" …>EA</div>
+
+4. Décommente la ligne <img class="avatar avatar--photo" … /> (retire <!-- et -->)
+
+5. Recharge la page.
+
+Conseil : image carrée ou presque (ex. 400×400 px minimum) pour un rendu net
+sur les écrans haute densité ; le CSS recadre en cercle (object-fit: cover).

@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Eric ALOWANOU — Développeur Full-Stack & Chef de projet. Portfolio : applications web et mobiles, sécurité, Agile."
+    />
+    <title>Eric ALOWANOU — Développeur Full-Stack & Chef de projet</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect fill='%23c24e1f' width='100' height='100' rx='18'/%3E%3Ctext x='50' y='58' font-size='42' text-anchor='middle' fill='white' font-family='system-ui,sans-serif' font-weight='700'%3EEA%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <aside class="sidebar" aria-label="Présentation et compétences">
+        <div class="sidebar__brand">
+          <!-- Photo : voir images/LISEZMOI.txt — remplace la div par <img class="avatar avatar--photo" src="images/profil.jpg" alt="…" width="132" height="132" /> -->
+          <div class="avatar" aria-hidden="true">EA</div>
+          <h2>Profil</h2>
+          <p>
+            Étudiant en Licence informatique basé à Lomé, je conçois et développe des applications web et mobiles
+            full-stack, du cahier des charges jusqu'au déploiement. À l'aise aussi bien en développement qu'en gestion
+            de projet Agile, j'interviens sur des projets académiques structurés et des missions freelance réelles, avec
+            une sensibilité marquée pour la sécurité applicative, la qualité du code et l'expérience utilisateur.
+          </p>
+        </div>
+
+        <div class="sidebar__block">
+          <h2>Stack technique</h2>
+          <dl class="stack-grid">
+            <div class="stack-row"><dt>Mobile</dt><dd>Flutter (Dart)</dd></div>
+            <div class="stack-row"><dt>Frontend</dt><dd>Vue.js 3, Next.js 14, Inertia.js, Blade, TypeScript</dd></div>
+            <div class="stack-row"><dt>UI / CSS</dt><dd>Tailwind CSS, Bootstrap 5, shadcn/ui</dd></div>
+            <div class="stack-row"><dt>Backend</dt><dd>Node.js, Express.js, Laravel 10/12, PHP 8</dd></div>
+            <div class="stack-row"><dt>Bases de données</dt><dd>PostgreSQL, MySQL</dd></div>
+            <div class="stack-row"><dt>Auth &amp; sécurité</dt><dd>JWT, bcrypt, NextAuth v5, OWASP Top 10</dd></div>
+            <div class="stack-row"><dt>Cloud &amp; DevOps</dt><dd>Firebase, Vercel, VPS Ubuntu, Nginx, GitHub Actions</dd></div>
+            <div class="stack-row"><dt>Tests</dt><dd>Jest, Supertest, UAT</dd></div>
+            <div class="stack-row"><dt>Méthodes</dt><dd>Agile/Scrum, MVC, REST API, MCD/MLD</dd></div>
+          </dl>
+        </div>
+
+        <div class="sidebar__block">
+          <h2>Compétences clés</h2>
+          <ul>
+            <li>Full-Stack Web &amp; Mobile — du backend sécurisé à l'interface utilisateur soignée</li>
+            <li>Conception &amp; Architecture — cahier des charges, modélisation BDD, cas d'utilisation, séquences</li>
+            <li>Gestion de projet Agile — Scrum Master, Product Backlog, sprints, cérémonies</li>
+            <li>Sécurité applicative — OWASP, JWT, rate limiting, audit logs, anti-doublons</li>
+            <li>Déploiement &amp; DevOps — CI/CD GitHub Actions, Vercel, VPS Linux/Nginx</li>
+            <li>Contexte local — projets ancrés dans la réalité togolaise (Lome+, services à domicile)</li>
+          </ul>
+        </div>
+
+        <div class="sidebar__block">
+          <h2>Formation</h2>
+          <p>Licence en Informatique — parcours orienté développement logiciel et systèmes d'information.</p>
+        </div>
+      </aside>
+
+      <main class="main" id="contact">
+        <header class="hero reveal">
+          <h1><span class="given">Eric</span> <span class="family">ALOWANOU</span></h1>
+          <p class="hero__tagline">Développeur Full-Stack &amp; Chef de projet</p>
+          <p class="hero__meta">Licence en Informatique · Lomé, Togo</p>
+          <div class="contact-row" aria-label="Coordonnées">
+            <span class="contact-chip contact-chip--static">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M12 21s7-4.5 7-11a7 7 0 1 0-14 0c0 6.5 7 11 7 11z" />
+                <circle cx="12" cy="10" r="2.5" />
+              </svg>
+              <span id="text-location">Lomé, Togo</span>
+            </span>
+            <span data-contact="email" hidden>
+              <a class="contact-chip" id="link-email" href="#">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path d="M4 6h16v12H4z" />
+                  <path d="M4 7l8 6 8-6" />
+                </svg>
+                <span class="contact-text"></span>
+              </a>
+            </span>
+            <span data-contact="phone" hidden>
+              <a class="contact-chip" id="link-phone" href="#">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path d="M6 3h4l2 5-3 2a12 12 0 0 0 5 5l2-3 5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 6 5a2 2 0 0 1 2-2z" />
+                </svg>
+                <span class="contact-text"></span>
+              </a>
+            </span>
+            <span data-contact="github" hidden>
+              <a class="contact-chip" id="link-github" href="#" rel="noopener noreferrer" target="_blank">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path
+                    d="M12 2C6.48 2 2 6.58 2 12.26c0 4.5 2.87 8.32 6.84 9.67.5.1.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.62-3.37-1.37-3.37-1.37-.46-1.19-1.11-1.5-1.11-1.5-.91-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.67.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.72 0 0 .84-.27 2.75 1.05A9.38 9.38 0 0 1 12 6.84c.85.004 1.71.12 2.51.35 1.91-1.33 2.75-1.05 2.75-1.05.55 1.42.2 2.46.1 2.72.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.06.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.8 0 .27.18.59.69.48A10.02 10.02 0 0 0 22 12.26C22 6.58 17.52 2 12 2z"
+                  />
+                </svg>
+                <span class="contact-text">GitHub</span>
+              </a>
+            </span>
+            <span data-contact="linkedin" hidden>
+              <a class="contact-chip" id="link-linkedin" href="#" rel="noopener noreferrer" target="_blank">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path
+                    d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4V23h-4V8zm7.5 0h3.8v2.05h.05c.53-1 1.84-2.05 3.79-2.05 4.05 0 4.8 2.67 4.8 6.13V23h-4v-6.65c0-1.59-.03-3.63-2.21-3.63-2.21 0-2.55 1.73-2.55 3.52V23h-4V8z"
+                  />
+                </svg>
+                <span class="contact-text">LinkedIn</span>
+              </a>
+            </span>
+          </div>
+          <p class="print-hint print-hide">
+            Pour un PDF <strong>en couleur</strong> (colonne orange comprise) : dans la fenêtre d’impression, choisis
+            <strong>Couleur</strong> et active <strong>Graphiques d’arrière-plan</strong> (Chrome : « Plus de paramètres »), puis
+            <strong>Enregistrer au format PDF</strong>.
+          </p>
+          <button type="button" class="btn-pdf print-hide" id="btn-export-pdf" aria-describedby="pdf-hint">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+              <path d="M14 2v6h6M12 18v-6M9 15l3 3 3-3" />
+            </svg>
+            Exporter en PDF
+          </button>
+          <span id="pdf-hint" class="visually-hidden">Ouvre la boîte de dialogue d’impression du navigateur pour enregistrer cette page au format PDF.</span>
+        </header>
+
+        <section class="reveal" aria-labelledby="projets-title">
+          <h2 id="projets-title" class="section-title">Projets</h2>
+
+          <article class="project">
+            <div class="project__head">
+              <h3 class="project__title">Plateforme mobile de services à domicile</h3>
+              <p class="project__context">Séminaire MIDA 2025–2026</p>
+            </div>
+            <p class="project__role">Scrum Master &amp; Développeur Backend</p>
+            <ul class="tech-tags" aria-label="Technologies">
+              <li>Flutter</li>
+              <li>Node.js</li>
+              <li>Express</li>
+              <li>PostgreSQL</li>
+              <li>JWT</li>
+              <li>Firebase</li>
+              <li>Google Maps API</li>
+              <li>GitHub Actions</li>
+            </ul>
+            <p class="project__intro">
+              Application full-stack mettant en relation des ménages et des prestataires de services domestiques (plomberie,
+              électricité, ménage, cuisine, sécurité) à Lomé.
+            </p>
+            <h4>Points forts</h4>
+            <ul>
+              <li>API REST sécurisée (8 modules, OWASP Top 10, rate limiting, audit logs)</li>
+              <li>PostgreSQL : 7 entités, triggers automatiques, index géospatiaux</li>
+              <li>Authentification double-profil (Client / Prestataire), JWT, vérification CNI</li>
+              <li>Géolocalisation temps réel, rayon paramétrable</li>
+              <li>Notation automatique post-intervention (0–5)</li>
+              <li>5 sprints Scrum de 2 semaines (Planning Poker, Daily, Review, Rétro)</li>
+              <li>Tests UAT avec 5 utilisateurs (objectif satisfaction ≥ 80 %)</li>
+            </ul>
+          </article>
+
+          <article class="project">
+            <div class="project__head">
+              <h3 class="project__title">Lome+ — Marketplace d'annonces togolaise</h3>
+              <p class="project__context">Projet freelance</p>
+            </div>
+            <p class="project__role">Développeur Full-Stack (solo)</p>
+            <ul class="tech-tags" aria-label="Technologies">
+              <li>Laravel 10</li>
+              <li>PHP 8</li>
+              <li>MySQL</li>
+              <li>Blade</li>
+              <li>Tailwind CSS</li>
+              <li>Bootstrap 5</li>
+              <li>Nginx</li>
+              <li>VPS Ubuntu</li>
+            </ul>
+            <p class="project__intro">
+              Marketplace permettant aux vendeurs de publier des annonces, de booster leur visibilité et de certifier leur
+              boutique via une monnaie virtuelle interne (coins).
+            </p>
+            <h4>Points forts</h4>
+            <ul>
+              <li>Coins virtuels : débit automatique, historique, crédit admin</li>
+              <li>Boost d’annonces : tarifs configurables, expiration, remontée en liste</li>
+              <li>Certification boutique : demande → validation admin → badge</li>
+              <li>Recherche multicritères (catégorie, ville, prix, livraison, boutiques certifiées)</li>
+              <li>Back-office complet (utilisateurs, annonces, coins, signalements, publicités)</li>
+              <li>10 entités, transactions SQL atomiques, eager loading anti-N+1</li>
+              <li>Modélisation : CDC, analyse, 8 flux, matrice des droits</li>
+            </ul>
+          </article>
+
+          <article class="project">
+            <div class="project__head">
+              <h3 class="project__title">LocAuto — Location de véhicules</h3>
+              <p class="project__context">Projet IHM</p>
+            </div>
+            <p class="project__role">Développeur Full-Stack</p>
+            <ul class="tech-tags" aria-label="Technologies">
+              <li>Laravel 12</li>
+              <li>Vue.js 3</li>
+              <li>Inertia.js</li>
+              <li>Tailwind CSS 4</li>
+              <li>Heroicons</li>
+              <li>Ziggy</li>
+            </ul>
+            <p class="project__intro">Gestion de location de véhicules : ergonomie et interface fluide.</p>
+            <h4>Points forts</h4>
+            <ul>
+              <li>SPA Laravel + Vue.js via Inertia.js</li>
+              <li>Dashboard admin : statistiques, CRUD catalogue, validation des réservations</li>
+              <li>Filtres avancés (type, prix, carburant), responsive</li>
+              <li>MVC, middleware d’accès admin</li>
+              <li>Validation temps réel, animations UX</li>
+            </ul>
+          </article>
+
+          <article class="project">
+            <div class="project__head">
+              <h3 class="project__title">ESI Vibes — Sondages universitaires</h3>
+              <p class="project__context">Projet académique</p>
+            </div>
+            <p class="project__role">Développeur Full-Stack</p>
+            <ul class="tech-tags" aria-label="Technologies">
+              <li>Next.js 14</li>
+              <li>TypeScript</li>
+              <li>Tailwind CSS</li>
+              <li>shadcn/ui</li>
+              <li>Vercel Postgres</li>
+              <li>Vercel Blob</li>
+              <li>NextAuth v5</li>
+              <li>Recharts</li>
+            </ul>
+            <p class="project__intro">Sondages pour sorties étudiantes, déployé sur Vercel, mobile-first, admin sécurisé.</p>
+            <h4>Points forts</h4>
+            <ul>
+              <li>App Router, Server Actions</li>
+              <li>NextAuth v5, middleware de protection des routes</li>
+              <li>Anti-doublons : empreinte SHA-256 + contrainte unique en base</li>
+              <li>Recharts, export CSV</li>
+              <li>Déploiement Vercel (Postgres, Blob, CI/CD)</li>
+              <li>Wizard mobile-first, gestion par slug</li>
+            </ul>
+          </article>
+        </section>
+
+        <section class="reveal" aria-labelledby="langues-title">
+          <h2 id="langues-title" class="section-title">Langues</h2>
+          <div class="lang-grid">
+            <div class="lang-item">
+              <h3>Français</h3>
+              <p>Langue maternelle</p>
+              <div class="lang-bar" role="presentation"><div class="lang-bar__fill" data-width="100%"></div></div>
+            </div>
+            <div class="lang-item">
+              <h3>Anglais</h3>
+              <p>Professionnel (lecture &amp; technique)</p>
+              <div class="lang-bar" role="presentation"><div class="lang-bar__fill" data-width="78%"></div></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="reveal formation-card" aria-labelledby="formation-title">
+          <h2 id="formation-title" class="section-title section-title--tight">Parcours</h2>
+          <h3>Licence en Informatique</h3>
+          <p>Formation en cours — Lomé, Togo. Développement logiciel, réseaux, gestion de projet.</p>
+        </section>
+
+        <footer class="site-footer">
+          <p>© <span id="year"></span> Eric ALOWANOU — Portfolio statique (GitHub Pages).</p>
+        </footer>
+      </main>
+    </div>
+
+    <script src="js/config.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
