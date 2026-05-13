@@ -8,19 +8,11 @@
  *
  * Ordre de chargement : ce fichier est lu AVANT main.js (voir index.html).
  * Tu n’as en général PAS besoin de toucher à main.js.
- *
- * Exemples (à copier puis adapter) :
- *
- *   email: "contact@exemple.com",
- *   phone: "+228 90 12 34 56",
- *   github: "https://github.com/tonpseudo",
- *   linkedin: "https://www.linkedin.com/in/ton-profil/",
- *   location: "Lomé, Togo",
  */
 window.PORTFOLIO_CONFIG = {
-  email: "",
-  phone: "",
-  github: "",
+  email: "ericalowanou2@gmail.com",
+  phone: "+228 93 34 36 66",
+  github: "https://github.com/ericalowanou-dot",
   linkedin: "",
   location: "Lomé, Togo",
 };

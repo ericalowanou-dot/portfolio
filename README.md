@@ -28,3 +28,11 @@ Réglages du dépôt → **Pages** → branche `main`, dossier `/ (root)`.
 ```bash
 npx --yes serve .
 ```
+
+## Propriété intellectuelle
+
+Ce dépôt est placé sous **tous droits réservés** : voir le fichier [`LICENSE`](LICENSE). Cela formalise que la réutilisation commerciale ou la copie substantielle sans ton accord n’est pas autorisée.
+
+**Limite technique importante** : un dépôt **public** sur GitHub est lisible et clonable par n’importe qui (c’est le principe de l’open source / de la visibilité). Un fichier `LICENSE` ne « verrouille » pas le code : il pose un **cadre juridique**. Pour que le code ne soit **pas visible** par le public, il faut un dépôt **privé** (GitHub permet des dépôts privés selon ton offre) et ne partager l’accès qu’aux personnes invitées.
+
+Pour un **portfolio** destiné aux recruteurs, un dépôt public est souvent voulu ; pour des projets sensibles ou commerciaux, privilégie **privé** + contrats / NDA avec les clients.
