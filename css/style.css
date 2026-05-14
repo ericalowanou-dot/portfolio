@@ -276,6 +276,8 @@ img {
 }
 
 img.hero-photo--img {
+  display: block;
+  height: auto;
   object-fit: cover;
   object-position: center 20%;
   padding: 0;
